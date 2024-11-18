@@ -1,0 +1,59 @@
+/* ------------- global ------------------- */
+ul {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+/* ----------------- section-sale-cotainer ------------------- */
+.section-sale {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 40px;
+  padding: 0px 65px;
+  width: 1280px;
+  height: 642px;
+}
+
+.section-sale-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
+.section-sale-all-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 40px;
+  width: 1150px;
+  height: 558px;
+}
+/* ----------- section-sale-wrapper-one -------------*/
+.section-sale-wrapper-one {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: row;
+  gap: 20px;
+  width: 580px;
+  height: 558px;
+}
+
+/* ----------- section-sale-wrapper-two -------------*/
+.section-sale-wrapper-two {
+  width: 530px;
+  height: 558px;
+}
